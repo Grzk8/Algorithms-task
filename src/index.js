@@ -46,8 +46,8 @@ function count(users, mobileDevices, iotDevices) {
   countNames = {};
 
   names.forEach(name => {
-    count[name] = (count[name] || 0) + 1
+    countNames[name] = (countNames[name] || 0) + 1
   });
 
-  return count;
+  return countNames;
 }
